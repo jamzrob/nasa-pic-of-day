@@ -13,7 +13,7 @@ brew install curl
 ```
 2. Add code in .dotfile to either .bashrc or .zshrc (depending on shell)
 ```
-.dotfile >> ~/.zshrc
+cat .dotfile >> ~/.zshrc
 ```
 
 3. Sign up for [Nasa API](https://api.nasa.gov) and add to start file
