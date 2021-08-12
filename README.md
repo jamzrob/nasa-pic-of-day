@@ -2,6 +2,8 @@
 
 Sets background to Nasa Pic of Day + Description!
 
+only for MacOS
+
 ## How to use
 
 1. Clone repo, install brew, install curl
