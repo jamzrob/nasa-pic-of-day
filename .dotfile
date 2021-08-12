@@ -1,0 +1,23 @@
+function nasa() {
+    
+    echo "        |"
+    echo "       / \\"
+    echo "      / _ \\"
+    echo "     |.o '.|"
+    echo "     |'._.'|"
+    echo "     |     |"
+    echo "   ,'|  |  |\`."
+    echo "  /  |  |  |  \\"
+    echo "  |,-'--|--'-.|"
+
+    data=$(curl -s "https://api.nasa.gov/planetary/apod?api_key=$NASA_API" | jq '.url')
+    description=$(curl -s "https://api.nasa.gov/planetary/apod?api_key=$NASA_API" | jq '.explanation')
+    echo $description
+    cmd="curl -s $data > nasa.png"
+    eval "$cmd"
+    wallpaper_script="tell application \"Finder\" to set desktop picture to POSIX file \"$HOME/nasa.png\""
+    osascript -e $wallpaper_script 
+        
+}
+
+
