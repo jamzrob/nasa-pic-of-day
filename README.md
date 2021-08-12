@@ -21,4 +21,4 @@ cat .dotfile >> ~/.zshrc
 NASA_API="DOGE_TO_THE_MOON_API_KEY_NAME" >> ~/.zshrc
 ```
 
-4. Enjoy the cerebal qualities of your desktop by resetarting terminal
+4. Enjoy the cerebal qualities of your desktop by restarting terminal
