@@ -1,6 +1,6 @@
 # nasa-pic-of-day
 
-Sets background to Nasa Pic of Day + description!!!
+Sets background to Nasa Pic of Day + Description!
 
 ## How to use
 
