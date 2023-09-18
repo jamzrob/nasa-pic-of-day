@@ -19,5 +19,5 @@ function nasa() {
     osascript -e $wallpaper_script 
         
 }
-
+nasa
 
